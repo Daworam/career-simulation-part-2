@@ -158,3 +158,10 @@ nav {
   margin-top: 50px;
   font-weight:bolder;
 }
+
+#quote2 {
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  font-weight:bolder;
+}
