@@ -1,9 +1,9 @@
 body {
-  background-color: darkcyan;
+  background-color: rgb(1, 87, 87);
 }
 
 header {
-  background-color: darkslategrey;
+  background-color: rgb(15, 26, 26);
   height: 50px;
   display:flex;
   justify-content: space-around;
@@ -13,8 +13,10 @@ header {
 
 nav > a {
   margin: auto;
-  border: 3px solid black;
+  border: 3px solid darkgoldenrod;
   padding: 10px;
+  border-radius: 50%;
+  background-color:darkgoldenrod
 }
 
 nav {
