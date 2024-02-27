@@ -3,23 +3,19 @@ body {
 }
 
 header {
-  background-color: rgb(15, 26, 26);
-  height: 50px;
-  display:flex;
-  justify-content: space-around;
+  background-color:darkslategray;
+}
+
+nav {
+  display: flex;
+}
+
+#nav-links {
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
-nav > a {
-  margin: auto;
-  border: 3px solid darkgoldenrod;
-  padding: 10px;
-  border-radius: 50%;
-  background-color:darkgoldenrod
-}
-
-nav {
-  margin: auto;
-  padding: 10px;
+#nav-fname {
+  display: inline;
 }
