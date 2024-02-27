@@ -6,16 +6,29 @@ header {
   background-color:darkslategray;
 }
 
-nav {
-  display: flex;
-}
-
-#nav-links {
+.nav-links {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: flex-end;
 }
 
-#nav-fname {
-  display: inline;
+/* #nav-fname {
+  margin-bottom: 10px;
+} */
+
+.divider {
+  border-top:5px solid black;
+  border-radius: 50px;
+}
+
+.button {
+  margin: 10px;
+  background-color:blanchedalmond;
+  padding: 10px;
+}
+
+nav > h1 {
+  display: flex;
+  justify-content: flex-start !important;
 }
