@@ -79,8 +79,6 @@ nav {
   border-radius: 50px;
 }
 
-
-
 .content-header {
   background-color: #6e8062;
   text-align: center;
@@ -184,4 +182,8 @@ nav {
   text-align: center;
   margin-top: 10px;
   font-weight:bolder;
+}
+
+.quote-container {
+  display:flex;
 }
