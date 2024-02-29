@@ -22,11 +22,11 @@ Created a form that captures name, email, and a message from users. Submit butto
 
 ### Other
 
--Added different sizing units to elements on the page
--Utilized more Flex formatting
--Formatted elements to be more readable on a mobile device using media query
--Included hover effects in the nav bar
--Created hover effects using transition
+*Added different sizing units to elements on the page
+*Utilized more Flex formatting
+*Formatted elements to be more readable on a mobile device using media query
+*Included hover effects in the nav bar
+*Created hover effects using transition
 
 
 
