@@ -1,19 +1,26 @@
 form {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 15em;
   align-items: center;
   background-color: #f4efd4;
   border-radius: 50px;
   padding: 1%;
+  margin-top: 5%;
 }
 
 form > label {
-  text-align:left !important;
+  text-align:left;
+  padding:1pt;
+}
+
+form > input {
+  padding: 1pt;
 }
 
 #contact-button {
   width:25%;
+  margin: .5em;
 }
 
 #contact-content {

@@ -35,8 +35,23 @@ main  {
   font-weight:bolder;
 }
 
+#quote3 {
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  font-weight:bolder;
+}
+
 #quote-container {
   display:flex;
   flex-direction: column;
   min-width: 90%;
+}
+
+h2 {
+  text-align: center;
+}
+
+#success-headline {
+  font-size: 3.5em;
 }
