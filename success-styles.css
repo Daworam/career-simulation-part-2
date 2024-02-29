@@ -10,11 +10,10 @@ main  {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  font-size: x-large;
   min-width: 90%;
 }
 
-#success-heading > img {
+#jessica {
   height: 200px;
   length: 200px;
   margin-left: 50px;
@@ -54,4 +53,12 @@ h2 {
 
 #success-headline {
   font-size: 3.5em;
+}
+
+section > h1 {
+  font-size: xx-large;
+}
+
+section > h2 {
+  font-size: large;
 }
