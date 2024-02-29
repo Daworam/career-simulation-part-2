@@ -19,10 +19,17 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-end;
+  align-items: center;
 }
 
 nav > h1 {
   margin-left: 20px;
+  font-size: xx-large;
+}
+
+nav > h1:hover {
+  font-size: 40pt;
+  transition: 3s;
 }
 
 .divider {
@@ -38,10 +45,23 @@ nav > h1 {
   padding: 10px;
   border-radius: 50px;
   margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: #ee7d04;
+  transition: 2s;
 }
 
 .button > a {
   color: black;
+  text-decoration: none;
+}
+
+.button > a:hover {
+  font-size: x-large;
+  transition: 2s;
 }
 
 nav {

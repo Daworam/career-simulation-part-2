@@ -2,8 +2,14 @@ form {
   display: flex;
   flex-direction: column;
   width: 25%;
+  align-items: center;
+  background-color: #f4efd4;
+  border-radius: 50px;
 }
 
+form > label {
+  text-align:left !important;
+}
 #contact-button {
   width:25%;
 }
